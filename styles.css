@@ -355,3 +355,237 @@ body {
     font-weight: 400;
 }
 
+/* Responsivo */
+
+@media (max-width: 1180px) {
+    .header, .main, .projects, .container-footer-content {
+        max-width: 960px;
+    }
+
+    .main .marker{
+        display: none;
+    }
+
+    .main h1 {
+        font-size: 48px;
+        line-height: 58px;
+        max-width: 400px;
+    }
+
+    .main p {
+        max-width: 400px;
+    }
+
+    .card-container {
+        gap: 32px;
+    }
+
+    .tags {
+        max-width: 450px;
+    }
+
+    .tags li:last-child {
+        margin-left: 0;
+    }
+
+    .container-card-content p {
+        max-width: 400px;
+    }
+
+    .container-footer-content {
+        gap: 64px;
+    }
+    
+}
+
+
+@media (max-width: 972px) {
+    .header, .main, .projects, .container-footer-content {
+        max-width: 600px;
+    }
+    
+    .container-nav {
+        justify-content: center;
+    }
+
+    .container-navlinks-socials {
+        margin-top: 16px;
+    }
+
+    .main, .projects {
+        justify-content: center;
+        margin: 48px auto;
+    }
+
+    .card-container, .container-footer-content {
+        justify-content: center;
+    }
+
+    .container-card-content {
+        max-width: 400px;
+    }
+
+    .container-card-content h4, .container-card-buttons {
+        margin-top: 32px;
+    }
+
+    .tags {
+        justify-content: center;
+        gap: 12px;
+        max-width: 460px;
+    }
+
+    .card-container {
+        margin: 64px auto;
+    }
+
+    .main h1, .main p, .projects h2, .card-container p, .card-container h4, 
+    .container-card-buttons, .footer p, .contacts {
+        text-align: center;
+    }
+
+    .container-download-main {
+        margin-top: 48px;
+    }
+
+    .footer {
+        margin-top: 100px;
+        height: 400px;
+    }
+
+    .container-footer-content {
+        margin-top: 36px;
+    }
+  
+}
+
+@media (max-width: 490px) {
+    .main, .projects, .container-footer-content {
+        max-width: 330px;
+    }
+
+    .header {
+        max-width: 250px;
+    }
+
+    .header p, .header li {
+        text-align: center;
+    }
+
+    .navlinks-website li, .navlinks-socials li  {
+        margin: 0 auto;
+    }
+    
+    .navlinks-website:first-child {
+        margin-left: 0;
+    }
+    
+    .navlinks-socials:last-child {
+        margin-right: 0;
+    }
+
+    .status {
+        margin-top: 16px;
+    }
+
+    .main h1 {
+        font-size: 32px;
+        line-height: 48px;
+        max-width: 375px;
+    }
+
+    .main {
+        margin: 32px auto;
+    }
+
+    .main p {
+        font-size: 18px;
+    }
+
+    .container-download-main {
+        width: 100%;
+        height: 300px;
+        background-color: #F5F5F5;
+      
+    }
+
+    .container-cv, .container-clipboard {
+        width: 250px;
+        height: 80px;
+    }
+
+    .container-clipboard p, .container-cv p {
+        font-size: 14px;
+    }
+
+    .container-cv img, .container-clipboard img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .projects h2 {
+        font-size: 32px;
+    }
+
+    .card-container img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .tags li {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .cards {
+        margin-top: 48px;
+    }
+
+
+    .cards h4 {
+        font-size: 24px;
+        margin-top: 24px;
+    }
+
+    .cards p {
+       font-size: 16px;
+    }
+
+    .container-card-buttons {
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .card-container {
+        gap: 16px;
+    }
+    
+    .button-green, .button-outlined {
+        padding: 10px 24px;
+        font-size: 14px;
+    }
+
+    .footer {
+        margin-top: 100px;
+        height: 400px;
+    }
+
+    .footer img {
+        width: 60px;
+        height: 60px;
+        left: 0;
+        top: -30px;
+    }
+
+    .container-footer-content {
+        margin-top: 36px;
+    }
+
+    .container-footer-content p, .container-footer-content a {
+        font-size: 18px;
+    }
+
+}
