@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Pedro Murilo</title>
+</head>
+<body>
+
+    <header class="header" id="home">
+        <div class="container-nav">
+            <nav class="nav">
+                <ul class="navlinks-website">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#experience">Experiência</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="status">
+                <div class="ball"></div>
+                <p>Disponível</p>
+            </div>
+            <div class="container-navlinks-socials">
+                <ul class="navlinks-socials">
+                    <li><a href="https://www.behance.net/pedromcalvi" target="_blank"><img src="icons/ant-design_behance-square-outlined.svg" alt="Behance Logo"/></a></li>
+                    <li><a href="https://www.linkedin.com/in/pedro-murilo/" target="_blank"><img src="icons/ant-design_linkedin-filled.svg" alt="Linkedin Logo"/></a></li>
+                    <li><a href="https://dribbble.com/pedromurilo" target="_blank"><img src="icons/ant-design_dribbble-square-outlined.svg" alt="Dribbble Logo" /></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container-content-main">
+            <h1>Me chamo Pedro e sou UX & UI Designer</h1>
+            <p>Tenho 22 anos e <strong>trabalho</strong> na área de UX/UI Design por
+            mais de <strong>2 anos</strong> atuando como freelancer.</p>
+        </div>
+        <img src="img/line-main-section.png" alt="A blue and black line" />
+        <div class="container-download-main">
+            <article>
+                <button class="container-clipboard btn-copy" onclick="copyContent()" type="button" >
+                    <p class="hidden-copy-success" id="copy-success">Copiado!</p>
+                    <img src="icons/ic_round-email.svg" alt="E-mail Icon" />
+                    <p id="copyEmail">pedromurilocalvi@gmail.com</p>
+                </button>
+            </article>
+            <article>
+                <a class="container-cv" href="archives/pedro_murilo_cv.pdf" download="pedro_murilo_cv.pdf">
+                    <img src="icons/ph_read-cv-logo-fill.svg" alt="CV Icon" />                     
+                    Download do meu currículo
+                </a> 
+            </article>
+        </div>
+    </main>
+
+    <section class="projects" id="experience">
+        <h2>Projetos</h2>
+
+        <div class="cards">
+        <div class="card-container">
+            <a href="https://newmoveispraiagrande.com.br" target="_blank">
+                <img src="img/thumbnail-newmoveis.png" alt="Projeto New Moveis" />
+            </a>
+            <div class="container-card-content">
+                <ul class="tags">
+                    <li>UI/UX Designer</li>
+                    <li>Website</li>
+                    <li>Projeto Real</li>
+                </ul>
+                <h4>New Móveis Planejados</h4>
+                <p>Uma empresa de construção de móveis modernos e de luxo.</p>
+                <div class="container-card-buttons">
+                    <a class="button-green" href="https://newmoveispraiagrande.com.br" target="_blank">Acessar Página</a>
+                    <a class="button-outlined" href="https://www.behance.net/gallery/174817267/New-Moveis-Planejados-Website" target="_blank">Ver Projeto</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-container">
+            <a href="https://www.behance.net/gallery/160871457/CleanDev-Website" target="_blank">
+                <img src="img/thumbnail-cleandev.png" alt="Projeto CleanDev" />
+            </a>
+            <div class="container-card-content">
+                <ul class="tags">
+                    <li>UI/UX Designer</li>
+                    <li>Website</li>
+                    <li>Projeto Real</li>
+                </ul>
+                <h4>CleanDev</h4>
+                <p>Uma empresa de desenvolvimento de software.</p>
+                <div class="container-card-buttons">
+                    <a class="button-outlined" href="https://www.behance.net/gallery/160871457/CleanDev-Website" target="_blank">Ver Projeto</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-container">
+            <a href="https://www.behance.net/gallery/169674653/NinjaPhone-Dashboard-Website-Redesign" target="_blank">
+                <img src="img/thumbnail-ninjaphone.png" alt="Projeto Ninjaphone" />
+            </a>
+            <div class="container-card-content">
+                <ul class="tags">
+                    <li>UI/UX Designer</li>
+                    <li>Website</li>
+                    <li>Dashboard</li>
+                    <li>Projeto Real</li>
+                </ul>
+                <h4>Ninjaphone</h4>
+                <p>Uma loja que conserta smartphones.</p>
+                <div class="container-card-buttons">
+                    <a class="button-outlined" href="https://www.behance.net/gallery/169674653/NinjaPhone-Dashboard-Website-Redesign" target="_blank">Ver Projeto</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-container">
+            <a href="https://www.behance.net/gallery/158942925/Babbel-App-Redesign" target="_blank">
+                <img src="img/thumbnail-babbel.png" alt="Projeto Babbel Redesign" />
+            </a>
+            <div class="container-card-content">
+                <ul class="tags">
+                    <li>UI/UX Designer</li>
+                    <li>Aplicativo</li>
+                    <li>Projeto de Estudo</li>
+                </ul>
+                <h4>Babbel Redesign</h4>
+                <p>Redesign do aplicativo da Babbel visando melhorar o visual e 
+                    a usabilidade.
+                </p>
+                <div class="container-card-buttons">
+                    <a class="button-outlined" href="https://www.behance.net/gallery/158942925/Babbel-App-Redesign" target="_blank">Ver Projeto</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-container">
+            <a href="https://www.behance.net/gallery/164718185/Steam-Mobile-Redesign" target="_blank">
+                <img src="img/thumbnail-steam.png" alt="Projeto Steam Redesign" />
+            </a>
+            <div class="container-card-content">
+                <ul class="tags">
+                    <li>UI/UX Designer</li>
+                    <li>Aplicativo</li>
+                    <li>Projeto de Estudo</li>
+                </ul>
+                <h4>Steam Mobile Redesign</h4>
+                <p>Redesign do aplicativo da Steam no mobile, buscando melhorar
+                    a usabilidade, além de trazer novas funcionalidades e um
+                    visual mais moderno.
+                </p>
+                <div class="container-card-buttons">
+                    <a class="button-outlined" href="https://www.behance.net/gallery/164718185/Steam-Mobile-Redesign" target="_blank">Ver Projeto</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    </section>
+
+    <footer class="footer" id="contact">
+        <img src="img/marker.png" alt="Marker" />
+        <div class="container-footer-content">
+            <div class="container-footer-text">
+                <p class="footer-paragraph">Estou disponível para trabalho fixo ou projetos freelance. 
+                    Entre em contato comigo para conversarmos!</p>
+                    <p>© 2023 Pedro. Todos os direitos reservados.</p>
+                </div>
+            <div class="contacts">
+                <p>pedromurilocalvi@gmail.com</p>
+                <a class="link-footer" href="https://www.linkedin.com/in/pedro-murilo/" target="_blank">Linkedin</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
